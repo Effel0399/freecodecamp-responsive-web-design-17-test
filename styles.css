@@ -45,7 +45,13 @@ img {
     flex-direction: column;
     text-align: center;
     border: #04AA6D 1px solid;
-    max-width: 250px;
+    max-width: 300px;
     margin: 0 auto;
     padding: 2rem;
+}
+
+@media only screen and (max-width: 720px) {
+    .pricing-card {
+        max-width: 250px;
+    }
 }
